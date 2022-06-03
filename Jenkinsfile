@@ -2,7 +2,7 @@ pipeline{
     agent any
         environment{
             IMAGE_NAME='umajonna9/repo1:7.0-apache$BUILD_NUMBER'
-            DEV_SERVER_IP='ec2-user@3.93.168.64'
+            DEV_SERVER_IP='ec2-user@3.87.197.123'
             DEPLOY_SERVER_IP='ec2-user@54.226.193.19'
         }
         stages{
