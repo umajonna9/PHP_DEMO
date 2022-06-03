@@ -1,5 +1,6 @@
 pipeline{
-    agent any{
+    agent any
+        environment{
         IMAGE_NAME='umajonn9/repo1:php$BUILD_NUMBER'
         DEV_SERVER_IP='ec2-user@3.93.168.64'
         DEPLOY_SERVER_IP='ec2-user@54.226.193.19'
@@ -37,5 +38,4 @@ pipeline{
             }
         }
     }
- }
 }
